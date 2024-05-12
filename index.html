@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- nav bar -->
+    <section class="conatiner">
+        <div class="flex-box">
+            <div class="logo">
+                <h1>logo</h1>
+            </div>
+            <nav id="top" class="nav-bar">
+                <div class="toggle-button" id="togglebutton">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul class="nav-links" id="navlinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <!-- end nav bar -->
+    <!-- main section -->
+    <section id="home" class="about-me">
+        <div class="info">
+            <h3>Hello</h3>
+            <h1>I'm Mohit</h1>
+            <p>Welcome to my protolio, a I'm web developer and a Java developer with a passion for creating beautiful and functional websites and applications.</p>
+        </div>
+    </section>
+    <!-- end main section -->
+    <!-- card -->
+    <h1 id="services"  class="service-heading">Services</h1>
+        <section class="sec-cards">
+            <!-- service card section -->
+                  <!-- <div class="card">
+                    <div class="image"></div>
+                    <div class="content">
+                      <a href="#">
+                        <span class="title">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </span>
+                      </a>
+                  
+                      <p class="desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+                        dolores, possimus pariatur animi temporibus nesciunt praesentium 
+                      </p>
+                    </div>
+                  </div>
+                </div>  -->
+            </section>
+    <!-- end service card section -->
+    <!-- contact me and feedback section -->
+    <h1 id="contact" class="contact-heading">Contacts</h1>
+    <section class="contact-sec">
+        <div class="contact-container">
+            <h1> <span><img src="./icon/icons8-contact-48.png" alt="cont"></span>Contact <span>Me</span></h1>
+            <h4 class="phone"><span><img src="./icon/icons8-phone-100.png" alt="phone"></span>7884545874</h4>
+            <h4 class="email"><span><img src="./icon/icons8-mail-96.png" alt="email"></span>abc@gmail.com</h4>
+        </div>
+        <form id="form-container" class="colorful-form">
+                <div class="form-group">
+                    <label class="form-label" for="name">Name:</label>
+                    <input required="" placeholder="Enter your name" class="form-input" type="text">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="email">Email:</label>
+                    <input required="" placeholder="Enter your email" class="form-input" name="email" id="email" type="email">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="message">Feedback:</label>
+                    <textarea required="" placeholder="Enter your FeedBack" class="form-input" name="message" id="message"></textarea>
+                </div>
+                <button class="form-button" type="submit">Submit</button>
+        </form>
+
+    </section>
+    <!-- end contact me and feedBack section -->
+    <!-- project container -->
+    <h1 id="project" class="project-heading">Mini Projects</h1>
+    <section class="project-container">
+        <!-- <div class="project-card">
+            <img src="./bg-image/19836723_6178721.jpg" alt="ddd">
+            <a href="#">link <span>-></span></a>
+        </div>
+        <div class="project-card">
+            <img src="./bg-image/19836723_6178721.jpg" alt="ddd">
+            <a href="#">link <span>-></span></a>
+        </div>
+        <div class="project-card">
+            <img src="./bg-image/19836723_6178721.jpg" alt="ddd">
+            <a href="#">link</a>
+        </div> -->
+    </section>
+    <!-- footer section -->
+    <footer>
+        <section class="footerContainer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footerNav">
+                <ul>
+                    <li><a href="#navlinks">Home</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#">Our Team</a></li>
+                </ul>
+            </div>
+        </section>
+        <div class="footerBottom">
+            <p>Copyright &copy; <span id="currentYear"></span> Designed by <span class="designer">Mohit</span></p>
+        </div>
+    </footer> 
+<!-- end footer section -->
+    <script src="./app.js"></script>
+</body>
+</html>
