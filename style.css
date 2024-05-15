@@ -96,7 +96,7 @@ Playball */
         display: flex;
         justify-content: center;
         align-items: center;
-        background: url('./bg-image/wavy-black-white-background.jpg');
+        background: #111;
         background-size:cover;
     }
 
@@ -449,7 +449,7 @@ footer{
     align-items: center;
     padding: 20px 25px;
     position: relative;
-   background: var(--black-color);
+    background: var(--black-color);
     margin-bottom: -26px;
     transition: 1s;
 }
