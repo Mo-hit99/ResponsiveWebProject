@@ -332,7 +332,7 @@ span img{
  margin: 0 auto;
 }
 
-.project-card .atag{
+.project-card a{
     position: absolute;
     left:30%;
     top :40%;

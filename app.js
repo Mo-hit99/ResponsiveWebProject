@@ -78,57 +78,58 @@ const cardInfo = [
     genreate();
 
 
-    // Project cards dynamic display
+
+    // // Project cards dynamic display
 
 
-    const project =[
+// const project =[
       
-    {
-      img:"./bg-image/pagescroll.png",
-      link:'https://pagescrollindicator.netlify.app/',
-      text: 'PageScroll'
-    },
-    {
-      img:"./bg-image/hoverEffect.jpg",
-      link:'https://hovercard22.netlify.app/',
-      text: 'HoverEffect'
-    },
+//     {
+//       img:"./bg-image/pagescroll.png",
+//       link:'https://pagescrollindicator.netlify.app/',
+//       text: 'PageScroll'
+//     },
+//     {
+//       img:"./bg-image/hoverEffect.jpg",
+//       link:'https://hovercard22.netlify.app/',
+//       text: 'HoverEffect'
+//     },
   
-    {
-      img:"./bg-image/temperature-converter.webp",
-      link:'https://tempconverter0099.netlify.app/',
-      text: 'tempConvert'
-    }
+//     {
+//       img:"./bg-image/temperature-converter.webp",
+//       link:'https://tempconverter0099.netlify.app/',
+//       text: 'tempConvert'
+//     }
   
-  ];
+//   ];
 
 
-  const projectContainer =document.querySelector('.project-container');
+//   const projectContainer =document.querySelector('.project-container');
 
 
-  function createProjectCard(imgValue,linkValue , textValue){
-      const projectCard = document.createElement('div');
-      projectCard.classList.add('project-card');
+//   function createProjectCard(imgValue,linkValue , textValue){
+//       const projectCard = document.createElement('div');
+//       projectCard.classList.add('project-card');
 
-      const imgContainer =document.querySelector('img');
-      imgContainer.setAttribute('src', imgValue);
-
-
-      const Atag = document.querySelector('a');
-      Atag.classList.add('atag');
-      Atag.setAttribute('href',linkValue);
-      Atag.innerHTML = textValue;
+//       const imgContainer =document.querySelector('img');
+//       imgContainer.setAttribute('src', imgValue);
 
 
-      projectContainer.appendChild(projectCard);
-      projectCard.appendChild(imgContainer);
-      projectCard.appendChild(Atag);
-  }
+//       const Atag = document.querySelector('a');
+//       Atag.classList.add('atag');
+//       Atag.setAttribute('href',linkValue);
+//       Atag.innerHTML = textValue;
 
 
-  const create = ()=>{
-    project.map((e)=>{
-      createProjectCard(e.img ,e.link,e.text);
-    })
-  }
-  create();
+//       projectContainer.appendChild(projectCard);
+//       projectCard.appendChild(imgContainer);
+//       projectCard.appendChild(Atag);
+//   }
+
+
+//   const create = ()=>{
+//     project.map((e)=>{
+//       createProjectCard(e.img ,e.link,e.text);
+//     })
+//   }
+//   create();
