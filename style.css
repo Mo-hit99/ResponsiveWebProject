@@ -19,7 +19,14 @@ Playball */
     --p-color:grey;
     --white-color:rgb(255, 255, 255);
 }
-
+/* navigation */
+.container{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
 .flex-box{
     display: flex;
     justify-content: space-between;
@@ -443,6 +450,14 @@ footer{
         overflow-x: hidden;
     }
 /* navigation */
+
+.container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
 .flex-box{
     display: flex;
     justify-content: space-between;
@@ -703,8 +718,10 @@ footer{
     cursor: pointer;
 }
 
-.project-card .atag{
- left: 20%;
+.project-card a{
+    top: 40%;
+    left: 20%;
+
 }
 /* footer section */
 footer{
