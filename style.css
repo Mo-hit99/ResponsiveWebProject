@@ -576,9 +576,10 @@ footer{
 }
 
 .about-me .info h1{
-    color: #FF5ACD;;
-    font-size: 50px;
+    color: #FF5ACD;
+    font-size: 38px;
     font-family: 'Rock Salt',sans-serif;
+    border:  1px solid wheat;
 }
 
 .about-me .info p{
