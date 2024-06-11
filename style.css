@@ -153,14 +153,14 @@ Playball */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 100%;
+    gap: 1rem;
     padding: 1rem 0;
     background-color: #111;
 }
 
 .card {
     margin-left: 5rem;
-    width: 350px;
-    height:350px;
+    max-width: 350px;
     margin: 0 auto;
     border-radius: 0.5rem;
     background-color: #fff;
