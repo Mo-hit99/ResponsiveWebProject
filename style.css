@@ -559,6 +559,9 @@ footer{
     margin: 0 auto;
     cursor: pointer;
 }
+.card:hover{
+    transform: scale(1);
+}
 /* about */
 
 /* end bg-video */
